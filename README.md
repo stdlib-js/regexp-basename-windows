@@ -101,6 +101,23 @@ base = RE_BASENAME_WINDOWS.exec( 'C:\\foo\\bar\\.gitignore' )[ 1 ];
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/regexp/basename`][@stdlib/regexp/basename]: return a regular expression to capture the last part of a path.
+-   [`@stdlib/regexp/basename-posix`][@stdlib/regexp/basename-posix]: return a regular expression to capture the last part of a POSIX path.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -157,6 +174,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/regexp-basename-windows/main/LICENSE
 
 [regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
+<!-- <related-links> -->
+
+[@stdlib/regexp/basename]: https://github.com/stdlib-js/regexp-basename
+
+[@stdlib/regexp/basename-posix]: https://github.com/stdlib-js/regexp-basename-posix
+
+<!-- </related-links> -->
 
 </section>
 
