@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+reBasenameWindows = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename-windows@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-basename-windows/tags). For example,
+
+```javascript
 reBasenameWindows = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename-windows@v0.1.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var reBasenameWindows = require( 'path/to/vendor/umd/regexp-basename-windows/ind
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename-windows@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename-windows@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -102,7 +107,7 @@ var match = reBasenameWindows.REGEXP.exec( 'foo\\file.pdf' )[ 1 ];
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename-windows@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename-windows@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
