@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reBasenameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename-windows@deno/mod.js';
+import reBasenameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename-windows@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename-windows@deno/mod.js';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename-windows@v0.2.2-deno/mod.js';
 ```
 
 #### reBasenameWindows()
@@ -81,7 +81,7 @@ var match = reBasenameWindows.REGEXP.exec( 'foo\\file.pdf' )[ 1 ];
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import reBasenameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename-windows@deno/mod.js';
+import reBasenameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename-windows@v0.2.2-deno/mod.js';
 
 var RE_BASENAME_WINDOWS = reBasenameWindows();
 var base = RE_BASENAME_WINDOWS.exec( 'index.js' )[ 1 ];
